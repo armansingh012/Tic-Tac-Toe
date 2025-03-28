@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B33951;
+    text-align: center;
+    /* background-image: url(tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg); */
+    
+}
+
+main{
+    z-index: 66;
+   
+} 
+
+main h1 {
+    color: #91C7B1;
+}
+
+.hide {
+    display: none;
+}
+
+#msg {
+    font-size: 4vmin;
+}
+
+#msg-btn {
+    padding: 0.4rem 1.5rem;
+    font-size: 1rem;
+    background-color: #E3D081;
+    border: none;
+    border-radius: 1rem;
+}
+
+.game {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 0.5rem;
+}
+
+.container .btn {
+    font-size: 4rem;
+    height: 16vmin;
+    width: 16vmin;
+    border: none;
+    box-shadow: black;
+    border-radius: 0.5rem;
+    background-color: #f4efda;
+    color: black;
+}
+
+main .reset {
+    padding: 0.4rem 1.5rem;
+    font-size: 1rem;
+    background-color: #E3D081;
+    border: none;
+    border-radius: 1rem;
+}
